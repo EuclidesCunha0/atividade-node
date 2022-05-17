@@ -1,13 +1,9 @@
 <%- include('./partials/head')  %>
 <body>
-
     <header class="cabecalho">
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="pag005.html">Como vai ser feito?</a>
-            <a class="cabecalho-menu-item" href="pag006.html">Quais são as principais referências?</a>
-            <a class="cabecalho-menu-item" href="pag007.html">Decisões de design</a>
+            <a class="cabecalho-menu-item" href="/referencias">Quais são as principais referências?</a>
         </nav>
-
     </header>
 
     <main class="conteudo">
@@ -15,39 +11,73 @@
             <div class="conteudo-principal-escrito">
                 <h1 class="conteudo-principal-escrito-titulo">Samples.project</h1>
                 <h2 class="conteudo-principal-escrito-subtitulo">A sua biblioteca virtual de samples. Descubra músicas sampleadas por grandes artistas!</h2>
-                <a href="pag003.html"><button class="conteudo-principal-escrito-botao">O que é um sample?</button></a>
+                <a href="/sample"><button class="conteudo-principal-escrito-botao">O que é um sample?</button></a>
             </div>
             <img class="conteudo-principal-imagem" src="imagens/logo.svg" alt="Logo do Samples.project">
         </section>
 
         <section class="conteudo-secundario">
             <h3 class="conteudo-secundario-titulo">Alguns exemplos de samples utilizados em músicas</h3>
+          <form class="pesquisa" action="">
+            <input type="text" placeholder="Pesquisar" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
             <p class="conteudo-secundario-paragrafo">Música original: All I need</p>
             <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://en.wikipedia.org/wiki/Lee_Fields" target="_blank">Lee Fields</a></strong></p>
             <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Antidote</p>
             <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Travis_Scott" target="_blank">Travis Scott</a></strong></p>
             <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://en.wikipedia.org/wiki/WondaGurl" target="_blank">Wondagurl</a></strong> e <strong><a href="https://everipedia.org/wiki/lang_en/eestbound" target="_blank">Eestbound</a></strong></p>
-            <audio src="audios/sample_1.mp3" controls autoplay ></audio>
+            <audio src="audios/sample_1.mp3" controls></audio>
             <br>
             <p class="conteudo-secundario-paragrafo">Música original: More Spell On You</p>
             <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/One_More_Time_(can%C3%A7%C3%A3o_de_Daft_Punk)" target="_blank">Eddie Johns</a></strong></p>
             <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: One More Time</p>
             <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Daft_Punk" target="_blank">Daft Punk</a></strong></p>
             <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://pt.wikipedia.org/wiki/Daft_Punk" target="_blank">Daft Punk</a></strong></p>
-            <audio src="audios/sample_3.mp3" controls autoplay ></audio>
+            <audio src="audios/sample_3.mp3" controls></audio>
             <br>
             <p class="conteudo-secundario-paragrafo">Música original: Inside the Crashed Space Pirate Frigate</p>
             <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Kenji_Yamamoto_(desambigua%C3%A7%C3%A3o)" target="_blank">Kenji Yamamoto</a></strong></p>
             <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Love Scars</p>
             <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Trippie_Redd" target="_blank">Trippie Redd</a></strong></p>
             <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://everipedia.org/wiki/lang_en/elliott-trent" target="_blank">Elliott Trent</a></strong></p>
-            <audio src="audios/sample_2.mp3" controls autoplay ></audio>
-            <h3 class="conteudo-secundario-titulo"><a href="pag004.html">O que é o projeto Samples?</a></h3>
+            <audio src="audios/sample_2.mp3" controls></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: You Can Fly, LowDown, We Gettin' Down </p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://en.wikipedia.org/wiki/Sons_of_Champlin" target="_blank">The Sons of Champlin</a>, <a href="https://en.wikipedia.org/wiki/Charles_Earland" target="_blank">Charles Earland</a>, <a href="https://en.wikipedia.org/wiki/Weldon_Irvine" target="_blank">Weldon Irvine</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Award Tour</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/A_Tribe_Called_Quest" target="_blank">A Tribe Called Quest</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://en.wikipedia.org/wiki/Q-Tip_(musician)" target="_blank">Q-Tip</a></strong></p>
+            <audio src="audios/sample_4.mp3" controls></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: Michelle, Until i found the lord (my soul couldn't rest)</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://en.wikipedia.org/wiki/Gabriel_Hardeman" target="_blank">The Gabriel Hardeman Delegation</a>, <a href="https://en.wikipedia.org/wiki/The_Singers_Unlimited" target="_blank">The Singers Unlimited</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Champagne Poetry</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Drake_(artista)" target="_blank">Drake</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://en.wikipedia.org/wiki/Masego_(musician)" target="_blank">Masego</a>, <a href="https://www.instagram.com/ovo40/" target="_blank">Noah "40" Shebib</a>, <a href="https://www.instagram.com/416maneesh/" target="_blank">Maneesh</a>, <a href="https://www.instagram.com/oliverelkhatib/" target="_blank">Oliver El-Khatib</a></strong></p>
+            <audio src="audios/sample_5.mp3" controls></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: Close to you - Live on the David Frost Show</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Stevie_Wonder" target="_blank">Stevie Wonder</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Close To You</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Frank_Ocean" target="_blank">Frank Ocean</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://pt.wikipedia.org/wiki/Frank_Ocean" target="_blank">Frank Ocean</a>, <a href="https://www.instagram.com/buddyross/" target="_blank">Buddy Ross</a>, <a href="https://en.wikipedia.org/wiki/Francis_Farewell_Starlite" target="_blank">Francis Starlite</a>  </strong></p>
+            <audio src="audios/sample_6.mp3" controls></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: Harder, Better, Faster, Stronger</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Daft_Punk" target="_blank">Daft Punk</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: Stronger</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Kanye_West" target="_blank">Kanye West</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="https://pt.wikipedia.org/wiki/Kanye_West" target="_blank">Kanye West</a>, <a href="https://en.wikipedia.org/wiki/Mike_Dean_(record_producer)" target="_blank">Mike Dean</a></strong></p>
+            <audio src="audios/sample_7.mp3" controls></audio>
+            <br>
+            <p class="conteudo-secundario-paragrafo">Música original: The Jam, Heather</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://pt.wikipedia.org/wiki/Graham_Central_Station" target="_blank">Graham Central Station</a>, <a href="https://pt.wikipedia.org/wiki/Billy_Cobham" target="_blank">Billy Cobham</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Música que utiliza o sample: 93 'til Infinity</p>
+            <p class="conteudo-secundario-paragrafo">Artista: <strong><a href="https://en.wikipedia.org/wiki/Souls_of_Mischief" target="_blank">Souls of Mischief</a></strong></p>
+            <p class="conteudo-secundario-paragrafo">Produtores responsáveis pela manipulação do sample: <strong><a href="" target="_blank">A-Plus</a></strong></p>
+            <audio src="audios/sample_8.mp3" controls></audio>
         </section>
     </main>
-
-    <footer class="rodape">
-        <a class="rodape-item" href="pag001.html" rel="next"><i>Para verificar a validação das páginas, clique aqui</i></a>
-    </footer>
 </body>
 </html>

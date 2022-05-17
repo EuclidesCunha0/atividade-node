@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 a {
@@ -92,6 +93,7 @@ body {
   
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
   }
   
 .conteudo-principal-imagem {
@@ -114,6 +116,40 @@ body {
     color: #FFF2EF;
     margin-bottom: 16px;
   }
+
+form.pesquisa input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  float: left;
+  width: 78%;
+  background: #f1f1f1;
+}
+
+form.pesquisa button {
+  float: left;
+  margin-left: 3px;
+  width: 20%;
+  padding: 10px;
+  background: #34495e;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  border-left: none; /* Prevernir bordas duplas */
+  cursor: pointer;
+}
+
+form.pesquisa button:hover {
+  background: #2c3e50;
+}
+
+form.pesquisa::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   
 .conteudo-secundario-paragrafo {
     font-family: 'Sarala', sans-serif;
@@ -123,8 +159,8 @@ body {
   }
   
 .rodape {
-      padding: 32px;
-      border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
   }
   
 .rodape-imagem {
@@ -134,11 +170,11 @@ body {
   }
 
 table {
-          width: 800px;
-          border-collapse: collapse;
-      }
+    width: 800px;
+    border-collapse: collapse;
+  }
 
-      th, td {
-          color: white;
-          border: 1px solid white;
-}
+th, td {
+    color: white;
+    border: 1px solid white;
+  }
